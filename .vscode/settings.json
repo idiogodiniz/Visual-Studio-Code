@@ -1,0 +1,187 @@
+{ 
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "diffEditor.wordWrap": "off",
+    "explorer.confirmDragAndDrop": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript", "javascriptreact"],
+    "editor.fontFamily": "JetBrains Mono Light",
+    "editor.smoothScrolling": false,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17.5,
+    "editor.lineHeight": 2.8,
+    "editor.letterSpacing": 3,
+    "terminal.integrated.fontFamily": "JetBrains Mono Light",
+    "terminal.integrated.fontSize": 18,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 12,
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.cursorStyle": "underline",
+    "editor.renderLineHighlight": "gutter",
+    "npm.autoDetect": "on",
+    "window.zoomLevel": -2,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[bat]": {
+        "diffEditor.wordWrap": "inherit",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 120,
+        "editor.fontLigatures": false
+    },
+    "[plaintext]": {
+        "diffEditor.wordWrap": "inherit",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 120,
+        "editor.fontLigatures": false
+    },
+    "[json]": {
+        "editor.fontLigatures": false
+    },
+    "debug.console.wordWrap": false,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "C:\\php\\php.exe",
+        "python": "python",
+        "perl": "perl",
+        "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+        "go": "go run",
+        "html": "live-server $workspaceRoot",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "csharp": "dotnet script",
+        "bat": "start $fullFileName"
+    },
+    "code-runner.executorMapByGlob": {
+        "index.js": "cd $dirWithoutTrailingSlash && npm start",
+        "*.js": "node",
+        "*.jsx": "cd $dirWithoutTrailingSlash && npm start"
+    },
+    "code-runner.runInTerminal": true,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": false,
+        "**/.git/subtree-cache/**": false,
+        "**/.hg/store/**": false,
+        "**/node_modules/*/**": false
+    },
+    "explorer.compactFolders": false,
+    "git.enableSmartCommit": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "editor.codeLens": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnType": true,
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "none",
+    "editor.inlayHints.enabled": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "functions": "#ceb735",
+            "keywords": "#9a7adf",
+            "types": "#24d4b1",
+            "strings": "#e78651",
+            "variables": "#5daed5",
+            "numbers": "#96e5a8",
+            "textMateRules": [
+                {
+                    "scope":"",
+                    "settings": {
+                        "foreground": "#ff0000",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"keyword.operator",
+                    "settings": {
+                        "foreground": "#d2c057",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"keyword.operator.new",
+                    "settings": {
+                        "foreground": "#9a7fd5",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"storage.modifier",
+                    "settings": {
+                        "foreground": "#9a7adf",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"support.class",
+                    "settings": {
+                        "foreground": "#dbdbdb",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"variable.parameter",
+                    "settings": {
+                        "foreground": "#5daed5",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"keyword.other.using",
+                    "settings": {
+                        "foreground": "#c97ec2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope":"storage.type.new",
+                    "settings": {
+                        "foreground": "#d55dad",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"support.class",
+                    "settings": {
+                        "foreground": "#37daa4",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"variable.other.readwrite.alias.js",
+                    "settings": {
+                        "foreground": "#37daa4",
+                        "fontStyle": ""
+                    }       
+                }
+            ]
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.background": "#242424"
+        }
+    }
+}
